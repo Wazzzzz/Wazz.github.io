@@ -188,6 +188,15 @@ ul li a{
 	border-radius: 15px;
 	font-family: roboto regular;
 }
+.container2{
+	padding: 10px;
+}
+.container2 form{
+	margin-top: 10%;
+}
+.container2 form td{
+	float: right;
+}
 .btn-box2{
 	width: 100%;
 	margin: 30px auto;
