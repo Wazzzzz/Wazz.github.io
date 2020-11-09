@@ -107,12 +107,50 @@ ul li a{
 	text-align: center;
 	font-size: 25px;
 }
-.btn-box{
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+  background-color: #262829;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 40px;
+  width: 80%;
+}
+.modal-content h1 {
+	color: white;
+	font-size: 60px;
+	font-family: roboto regular;
+	margin-right: 50%;
+}
+.modal-content p{
+	color:whitesmoke;
+	font-size: 30px;
+	font-family: roboto regular;
+	margin-right: 15%;
+	text-align: left;
+	margin-left: 5%;
+	padding-bottom: 30px;
+}
+
+.btnbox{
 	width: 100%;
 	margin: 30px auto;
 	text-align: center;
 }
-.btn-box button{
+button {
 	width: 200px;
 	height: 50px;
 	margin: 0 10px;
@@ -127,6 +165,20 @@ ul li a{
 	font-size: 20px;
 	font-family: roboto regular;
 }
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+	color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 
 .cara-mencegah{
@@ -180,7 +232,6 @@ ul li a{
 	width: 500px;
 	height: 400px;
 	margin-top: 0%;
-	margin: auto;
 	margin-left: 33%;
 	margin-bottom: 2%;
     background: #262829;
@@ -188,13 +239,8 @@ ul li a{
 	border-radius: 15px;
 	font-family: roboto regular;
 }
-.container2{
-	padding: 10px;
-	font-size: 20PX;
-}
-.container2 p{
-	margin-top: 15%;
-	font-size: 20PX;
+form{
+	padding-top: 20%;
 }
 .btn-box2{
 	width: 100%;
