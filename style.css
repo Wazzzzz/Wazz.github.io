@@ -107,7 +107,152 @@ ul li a{
 	text-align: center;
 	font-size: 25px;
 }
+.btn-box{
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+.btn-box button{
+	width: 200px;
+	height: 50px;
+	margin: 0 10px;
+	background: linear-gradient(to top,#52e4ca, black);
+	border-radius: 10px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: roboto regular;
+}
 
+
+.cara-mencegah{
+	height:100vh;
+	background-image:url(bacroundcaramencegah.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.cara-mencegah p{
+	text-align: center;
+	font-family: roboto regular;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	text-decoration: none;
+}
+.kasus-terkini{
+	height:100vh;
+	background-image:url(backroundkasusterkini.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.elemen2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:10%;
+}
+.kasus-terkini p{
+	text-align: center;
+	font-family: roboto regular;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	text-decoration: none;
+}
+.konsultasi-gejala{
+	background-image:url(bacroundkonsul.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.konsultasi-gejala p{
+	text-align: center;
+	font-family: roboto regular;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 2%;
+}
+#kotak2{
+	width: 500px;
+	height: 400px;
+	margin-top: 0%;
+	margin: auto;
+	margin-left: 33%;
+	margin-bottom: 2%;
+    background: #262829;
+    color: #FFF;;	
+	border-radius: 15px;
+	font-family: roboto regular;
+}
+.container2{
+	padding: 10px;
+	font-size: 20PX;
+}
+.container2 p{
+	margin-top: 15%;
+	font-size: 20PX;
+}
+.btn-box2{
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+	margin-bottom: 0%;
+}
+.btn-box2 button{
+	width: 180px;
+	height: 50px;
+	margin: 0 10px;
+	margin-bottom: 0%;
+	background: #ff2b59;
+	border-radius: 10px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: roboto regular;
+}
+.konsultasi-gejala .text{
+	margin-left: 18%;
+	margin-bottom: 6%;
+	margin-top: 2%;
+}
+.konsultasi-gejala .text #text1 p{
+	float: left;
+	font-size: 15px;
+	color: gray;
+	margin-right: 100px;
+	text-align: center;
+}
+.konsultasi-gejala .text #text2 p{
+	float: left;
+	font-size: 15px;
+	color: gray;
+	margin-right: 100px;
+	text-align: center;
+	width:150px;
+}
+.konsultasi-gejala .text #text3 p{
+	float: left;
+	font-size: 15px;
+	color: gray;
+	margin-right: 100px;
+	text-align: center;
+	width:200px;
+}.konsultasi-gejala .text #text4 p{
+	float: left;
+	font-size: 15px;
+	color: gray;
+	margin-right: 100px;
+	text-align: center;
+	width:250px;
+}
 .modal {
     display: none; 
     position: fixed; 
@@ -179,123 +324,3 @@ button {
     text-decoration: none;
     cursor: pointer;
   }
-
-
-.cara-mencegah{
-	height:100vh;
-	background-image:url(bacroundcaramencegah.jpg);
-	background-size: cover;
-	background-position: center;
-}
-
-.cara-mencegah p{
-	text-align: center;
-	font-family: roboto regular;
-	font-size: 20px;
-	margin-top: 0%;
-	margin-bottom: 0%;
-	text-decoration: none;
-}
-.kasus-terkini{
-	height:100vh;
-	background-image:url(backroundkasusterkini.jpg);
-	background-size: cover;
-	background-position: center;
-}
-.elemen2{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width:10%;
-}
-.kasus-terkini p{
-	text-align: center;
-	font-family: roboto regular;
-	font-size: 20px;
-	margin-top: 0%;
-	margin-bottom: 0%;
-	text-decoration: none;
-}
-.konsultasi-gejala{
-	background-image:url(bacroundkonsul.jpg);
-	background-size: cover;
-	background-position: center;
-}
-.konsultasi-gejala p{
-	text-align: center;
-	font-family: roboto regular;
-	font-size: 20px;
-	margin-top: 0%;
-	margin-bottom: 2%;
-}
-#kotak2{
-	width: 500px;
-	height: 400px;
-	margin-top: 0%;
-	margin-left: 33%;
-	margin-bottom: 2%;
-    background: #262829;
-    color: #FFF;;	
-	border-radius: 15px;
-	font-family: roboto regular;
-}
-form{
-	padding-top: 20%;
-}
-.btn-box2{
-	width: 100%;
-	margin: 30px auto;
-	text-align: center;
-	margin-bottom: 0%;
-}
-.btn-box2 button{
-	width: 180px;
-	height: 50px;
-	margin: 0 10px;
-	margin-bottom: 0%;
-	background: #ff2b59;
-	border-radius: 10px;
-	border: 0;
-	outline: none;
-	color: #fff;
-	cursor: pointer;
-	border: 1px solid #fff;
-	margin-top: 10px;
-	font-size: 20px;
-	font-family: roboto regular;
-}
-.konsultasi-gejala .text{
-	margin-left: 18%;
-	margin-bottom: 6%;
-	margin-top: 2%;
-}
-.konsultasi-gejala .text #text1 p{
-	float: left;
-	font-size: 15px;
-	color: gray;
-	margin-right: 100px;
-	text-align: center;
-}
-.konsultasi-gejala .text #text2 p{
-	float: left;
-	font-size: 15px;
-	color: gray;
-	margin-right: 100px;
-	text-align: center;
-	width:150px;
-}
-.konsultasi-gejala .text #text3 p{
-	float: left;
-	font-size: 15px;
-	color: gray;
-	margin-right: 100px;
-	text-align: center;
-	width:200px;
-}.konsultasi-gejala .text #text4 p{
-	float: left;
-	font-size: 15px;
-	color: gray;
-	margin-right: 100px;
-	text-align: center;
-	width:250px;
-}
