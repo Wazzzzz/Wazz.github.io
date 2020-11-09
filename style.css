@@ -1,0 +1,190 @@
+html{
+	scroll-behavior: smooth;
+}
+.top-wrapper{
+	padding-top: 10px;
+	height:100vh;
+	background-image:url(backroundberanda.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.top-wrapper h1{
+	color: white;
+	font-family: roboto;
+	font-size: 50px;
+	margin-top:5%;
+	margin-left: 43%;
+	position: ;
+}
+.top-wrapper h2{
+	color: white;
+	font-family: Roboto Light;
+	font-size: 40px;
+	margin-left: 31%;
+	text-align: center;
+	width: 40%;
+}
+.top-wrapper h3{
+	color: white;
+	font-style: times new romans;
+	font-size: 50px;
+	width: 20%;
+}
+header {
+	height: 70px;
+	width: 100%;
+	background: rgba(200,255,255, 0.5);
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	box-sizing: border-box;
+}
+.navbar{
+	position: fixed;
+	overflow: hidden;
+	font-family: roboto regular;
+	float: right;
+	top : 0;
+	padding-left: 40%;
+}
+.navbar a{
+	float: left;
+	width: 100px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navbar a:hover{
+	border-bottom: 4px solid black;
+}
+ul{
+	float: right;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color:#222222;
+	padding: 5px 20px;
+}
+
+
+.apaitu-covid{
+	height:100vh;
+	background-image:url(backroundapaitucovid.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.elemen{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:15%;
+}
+.apaitu-covid p{
+	text-align: center;
+	font-family: roboto regular;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+#kotak{
+	width: 500px;
+	height: 200px;
+	margin: auto;
+    background: #262829;
+    color: #FFF;;	
+	border-radius: 15px;
+	font-family: roboto regular;
+}
+.container{
+	padding: 10px;
+	margin-top: 10%;
+}
+.container h1{
+	text-align: center;
+	font-size: 25px;
+}
+.btn-box{
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+.btn-box button{
+	width: 200px;
+	height: 50px;
+	margin: 0 10px;
+	background: linear-gradient(to top,#52e4ca, black);
+	border-radius: 10px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: roboto regular;
+}
+
+
+.cara-mencegah{
+	height:100vh;
+	background-image:url(bacroundcaramencegah.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.cara-mencegah p{
+	text-align: center;
+	font-family: roboto regular;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	text-decoration: none;
+}
+.kasus-terkini{
+	height:100vh;
+	background-image:url(backroundkasusterkini.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.kasus-terkini p{
+	text-align: center;
+	font-family: roboto regular;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	text-decoration: none;
+}
+#kotak3{
+	width: 500px;
+	height: 200px;
+	margin: auto;
+    background: #262829;
+    color: #FFF;;	
+	border-radius: 15px;
+	font-family: roboto regular;
+}
+.btn-box3{
+	width: 100%;
+	margin: 30px auto;
+	text-align: center;
+}
+.btn-box3 button{
+	width: 200px;
+	height: 50px;
+	margin: 0 10px;
+	background: linear-gradient(to top,#52e4ca, black);
+	border-radius: 10px;
+	border: 0;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #fff;
+	margin-top: 20px;
+	font-size: 20px;
+	font-family: roboto regular;
+}
