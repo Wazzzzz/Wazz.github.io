@@ -77,82 +77,6 @@ nav ul{
 	background-color: black;
 }
 
-
-
-@media (max-width : 1040px) {
-
-	nav ul {
-		margin-right: 20px;
-	}
-	nav a{
-		font-size: 13px;
-	}
-	.top-wrapper h1{
-		color: white;
-		font-family: roboto;
-		font-size: 40px;
-		margin-top:5%;
-		position: absolute;
-	}
-	.top-wrapper h2{
-		color: white;
-		font-family: Roboto Light;
-		font-size: 30px;
-		text-align: center;
-		width: 42%;
-		margin-top: 12%;
-	
-	}
-	.top-wrapper h3{
-		color: white;
-		font-style: times new romans;
-		font-size: 36px;
-		margin-top: 5%;
-		width: 25%;
-	}
-}
-@media (max-width : 568px){
-	.menu{
-		display: flex;
-		z-index: 1;
-		margin-top: 10px;
-	}
-	nav ul{
-		flex-direction: column;
-		height: 70vh;
-		width: 100%;
-		padding-right: 35%;
-		align-items: center;
-		transform: translateY(-100%);
-		background-color: #6dffc6;
-		position: absolute;
-	}
-	.top-wrapper h1{
-		color: white;
-		font-family: roboto;
-		font-size: 50px;
-		margin-top:30%;
-		margin-left: 30%;
-	}
-	.top-wrapper h2{
-		color: white;
-		font-family: Roboto Light;
-		font-size: 25px;
-		text-align: center;
-		width: 60%;
-		margin-left: 20%;
-		margin-top: 45%;
-	
-	}
-	.top-wrapper h3{
-		color: white;
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-		font-size: 25px;
-		margin-top: 10%;
-		width: 45%;
-		margin-left: 10px;
-	}
-}
 .open{
 	transform: translateY(0);
 	transition: 1s;
@@ -415,7 +339,7 @@ form{
 }
 .btn-box2{
 	width: 100%;
-	margin: 30px auto;
+	margin: auto;
 	text-align: center;
 	margin-bottom: 0%;
 }
@@ -434,6 +358,161 @@ form{
 	margin-top: 10px;
 	font-size: 20px;
 	font-family: roboto regular;
+}
+@media (max-width : 1040px) {
+
+	nav ul {
+		margin-right: 20px;
+	}
+	nav a{
+		font-size: 13px;
+	}
+	.top-wrapper h1{
+		color: white;
+		font-family: roboto;
+		font-size: 40px;
+		margin-top:5%;
+		position: absolute;
+	}
+	.top-wrapper h2{
+		color: white;
+		font-family: Roboto Light;
+		font-size: 30px;
+		text-align: center;
+		width: 42%;
+		margin-top: 12%;
+	
+	}
+	.top-wrapper h3{
+		color: white;
+		font-style: times new romans;
+		font-size: 36px;
+		margin-top: 5%;
+		width: 25%;
+	}
+	#kotak2{
+		width: 500px;
+		height: 400px;
+		margin-top: 0%;
+		margin-left: 22%;
+		margin-bottom: 2%;
+		background: #262829;
+		color: #FFF;;	
+		border-radius: 15px;
+		font-family: roboto regular;
+	}
+	.btn-box2{
+		width: 100%;
+		margin-top: 20%;
+		text-align: center;
+		margin-bottom: 0%;
+	}
+	.modal-content h1 {
+		color: white;
+		font-size: 40px;
+		font-family: roboto regular;
+		margin-right: 50%;
+	}
+	.modal-content p{
+		color:whitesmoke;
+		font-size: 20px;
+		font-family: roboto regular;
+		margin-right: 15%;
+		text-align: left;
+		margin-left: 5%;
+		padding-bottom: 30px;
+	}
+}
+@media (max-width : 568px){
+	.menu{
+		display: flex;
+		z-index: 1;
+		margin-top: 10px;
+	}
+	nav ul{
+		flex-direction: column;
+		height: 70vh;
+		width: 100%;
+		padding-right: 35%;
+		align-items: center;
+		transform: translateY(-100%);
+		background-color: #6dffc6;
+		position: absolute;
+	}
+	.top-wrapper h1{
+		color: white;
+		font-family: roboto;
+		font-size: 50px;
+		margin-top:30%;
+		margin-left: 30%;
+	}
+	.top-wrapper h2{
+		color: white;
+		font-family: Roboto Light;
+		font-size: 25px;
+		text-align: center;
+		width: 60%;
+		margin-left: 20%;
+		margin-top: 45%;
+	
+	}
+	.top-wrapper h3{
+		color: white;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size: 25px;
+		margin-top: 10%;
+		width: 45%;
+		margin-left: 10px;
+	}
+	#kotak2{
+		width: 500px;
+		height: 400px;
+		margin-top: 0%;
+		margin-left: 5%;
+		margin-bottom: 2%;
+		background: #262829;
+		color: #FFF;;	
+		border-radius: 15px;
+		font-family: roboto regular;
+	}
+	.modal-content h1 {
+		color: white;
+		font-size: 27px;
+		font-family: roboto regular;
+		margin-right: 50%;
+	}
+	.modal-content p{
+		color:whitesmoke;
+		font-size: 18px;
+		font-family: roboto regular;
+		margin-right: 15%;
+		text-align: left;
+		margin-left: 5%;
+		padding-bottom: 30px;
+	}
+	#kotak{
+		width: 400px;
+		height: 200px;
+		margin: auto;
+		background: #262829;
+		color: #FFF;;	
+		border-radius: 15px;
+		font-family: roboto regular;
+	}
+	.container h1{
+		text-align: center;
+		font-size: 22px;
+	}
+	#kotak2{
+		width: 400px;
+		height: 400px;
+		margin-top: 0%;
+		margin-bottom: 2%;
+		background: #262829;
+		color: #FFF;;	
+		border-radius: 15px;
+		font-family: roboto regular;
+	}
 }
 .konsultasi-gejala .text{
 	margin-left: 18%;
