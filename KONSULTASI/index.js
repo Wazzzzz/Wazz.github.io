@@ -174,9 +174,13 @@
         if (selections[i] === questions[i].correctAnswer) {
           numCorrect++;
         }
+      }     
+      if (numCorrect > 2) {
+        score.append('aman');
+        return score;
+      } else {
+        score.append('test pcr');
+        return score;
       }
-     
-      score.append('Terimakasih Telah Menjawab Dengan Jujur.');
-      return score;
     }
   })();
