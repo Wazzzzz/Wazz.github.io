@@ -11,30 +11,30 @@
       question: "Apakah anda mengalami sakit kepala yang parah dan terus menerus?",
       choices: ["Ya", "Tidak"],
       correctAnswer: 1
-    // }, {
-    //   question: "Apakah dalam 14 hari terakhir anda mengalami batuk, pilek dan nyeri tenggorokan?",
-    //   choices: ["Ya", "Tidak"],
-    //   correctAnswer: 1
-    // }, {
-    //   question: "Apakah anda mengalami kemampuan untuk mencium bau yang berkurang?",
-    //   choices: ["Ya", "Tidak"],
-    //   correctAnswer: 1
-    // }, {
-    //     question: "Apakah anda sering berpergian ke luar kota?",
-    //     choices: ["Ya", "Tidak"],
-    //     correctAnswer: 1
-    // }, {
-    //     question: "Apakah anda kerja atau sering beraktivitas di keramaian?",
-    //     choices: ["Ya", "Tidak"],
-    //     correctAnswer: 1
-    // }, {
-    //     question: "Apakah anda pertugas kesehatan atau bekerja di fasilitas kesehatan yang menangani pasien?",
-    //     choices: ["Ya", "Tidak"],
-    //     correctAnswer: 1
-    // }, {
-    //     question: "Apakah anda selalu taati aturan protokol kesehatan jika beraktivitas keluar rumah?",
-    //     choices: ["Ya", "Tidak"],
-    //     correctAnswer: 1
+    }, {
+      question: "Apakah dalam 14 hari terakhir anda mengalami batuk, pilek dan nyeri tenggorokan?",
+      choices: ["Ya", "Tidak"],
+      correctAnswer: 1
+    }, {
+      question: "Apakah anda mengalami kemampuan untuk mencium bau yang berkurang?",
+      choices: ["Ya", "Tidak"],
+      correctAnswer: 1
+    }, {
+        question: "Apakah anda sering berpergian ke luar kota?",
+        choices: ["Ya", "Tidak"],
+        correctAnswer: 1
+    }, {
+        question: "Apakah anda kerja atau sering beraktivitas di keramaian?",
+        choices: ["Ya", "Tidak"],
+        correctAnswer: 1
+    }, {
+        question: "Apakah anda petugas kesehatan atau bekerja di fasilitas kesehatan yang menangani pasien?",
+        choices: ["Ya", "Tidak"],
+        correctAnswer: 1
+    }, {
+        question: "Apakah anda selalu taati aturan protokol kesehatan jika beraktivitas keluar rumah?",
+        choices: ["Ya", "Tidak"],
+        correctAnswer: 0
     }];
   
     var questionCounter = 0; //Tracks question number
@@ -175,11 +175,11 @@
           numCorrect++;
         }
       }     
-      if (numCorrect > 2) {
-        score.append('aman');
+      if (numCorrect > 6) {
+        score.append('Kondisi anda sekarang dalam keadaan tidak membahayakan, tetap selalu terapkan pola hidup sehat!');
         return score;
       } else {
-        score.append('test pcr');
+        score.append('Konsisi anda saat ini sedang tidak baik, disarankan segera menuju ke puskesmas untuk periksa dan test PCR!');
         return score;
       }
     }
